@@ -1,0 +1,28 @@
+[18-Jul-2018 00:49:16 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '"' in J:\ApacheDistroMY\twamp\htdocs\index.php on line 19
+[18-Jul-2018 01:06:40 Europe/Helsinki] PHP Warning:  filesize(): stat failed for distro/twamp.zip in J:\ApacheDistroMY\twamp\htdocs\index.php on line 18
+[18-Jul-2018 01:06:40 Europe/Helsinki] PHP Stack trace:
+[18-Jul-2018 01:06:40 Europe/Helsinki] PHP   1. {main}() J:\ApacheDistroMY\twamp\htdocs\index.php:0
+[18-Jul-2018 01:06:40 Europe/Helsinki] PHP   2. filesize() J:\ApacheDistroMY\twamp\htdocs\index.php:18
+[18-Jul-2018 01:19:39 Europe/Helsinki] PHP Warning:  filesize(): stat failed for distro/twamp.zip in J:\ApacheDistroMY\twamp\htdocs\index.php on line 18
+[18-Jul-2018 01:19:39 Europe/Helsinki] PHP Stack trace:
+[18-Jul-2018 01:19:39 Europe/Helsinki] PHP   1. {main}() J:\ApacheDistroMY\twamp\htdocs\index.php:0
+[18-Jul-2018 01:19:39 Europe/Helsinki] PHP   2. filesize() J:\ApacheDistroMY\twamp\htdocs\index.php:18
+[19-Jul-2018 07:42:15 Europe/Helsinki] PHP Warning:  filesize(): stat failed for distro/twamp.zip in J:\TWAMPTEST\twamp\htdocs\index.php on line 18
+[19-Jul-2018 07:42:15 Europe/Helsinki] PHP Stack trace:
+[19-Jul-2018 07:42:15 Europe/Helsinki] PHP   1. {main}() J:\TWAMPTEST\twamp\htdocs\index.php:0
+[19-Jul-2018 07:42:15 Europe/Helsinki] PHP   2. filesize() J:\TWAMPTEST\twamp\htdocs\index.php:18
+[23-Jul-2018 03:16:21 Europe/Helsinki] PHP Warning:  filesize(): stat failed for distro/twamp.zip in J:\Twamp\twamp\htdocs\index.php on line 19
+[23-Jul-2018 03:16:21 Europe/Helsinki] PHP Stack trace:
+[23-Jul-2018 03:16:21 Europe/Helsinki] PHP   1. {main}() J:\Twamp\twamp\htdocs\index.php:0
+[23-Jul-2018 03:16:21 Europe/Helsinki] PHP   2. filesize() J:\Twamp\twamp\htdocs\index.php:19
+[23-Jul-2018 03:26:37 Europe/Helsinki] PHP Warning:  filesize(): stat failed for distro/twamp.zip in J:\Twamp\twamp\htdocs\index.php on line 19
+[23-Jul-2018 03:27:00 Europe/Helsinki] PHP Warning:  filesize(): stat failed for distro/twamp.zip in J:\Twamp\twamp\htdocs\index.php on line 19
+[23-Jul-2018 03:27:09 Europe/Helsinki] PHP Warning:  filesize(): stat failed for distro/twamp.zip in J:\Twamp\twamp\htdocs\index.php on line 19
+[24-Jul-2018 23:30:33 Europe/Helsinki] PHP Warning:  filesize(): stat failed for distro/twamp.zip in J:\Twamp\twamp\htdocs\index.php on line 19
+[25-Jul-2018 00:06:46 Europe/Helsinki] PHP Warning:  filesize(): stat failed for distro/twamp.zip in J:\Twamp\twamp\htdocs\index.php on line 19
+[26-Jul-2018 05:30:30 Europe/Helsinki] PHP Warning:  filesize(): stat failed for distro/twamp.zip in J:\Twamp\twamp\htdocs\index.php on line 22
+[26-Jul-2018 05:35:37 Europe/Helsinki] PHP Warning:  filesize(): stat failed for distro/twamp.zip in J:\Twamp\twamp\htdocs\index.php on line 22
+[26-Jul-2018 05:46:27 Europe/Helsinki] PHP Warning:  filesize(): stat failed for distro/twamp.zip in J:\TWAMPTEST\twamp\htdocs\index.php on line 22
+[26-Jul-2018 05:46:37 Europe/Helsinki] PHP Warning:  filesize(): stat failed for distro/twamp.zip in J:\TWAMPTEST\twamp\htdocs\index.php on line 22
+[27-Jul-2018 02:48:09 Europe/Helsinki] PHP Warning:  filesize(): stat failed for distro/twamp.zip in J:\TWAMPTEST\YrjYrittj\htdocs\index.php on line 22
+[27-Jul-2018 03:05:37 Europe/Helsinki] PHP Warning:  filesize(): stat failed for distro/twamp.zip in J:\TWAMPTEST\YrjYrittj\htdocs\index.php on line 22

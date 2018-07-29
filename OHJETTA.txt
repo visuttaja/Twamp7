@@ -1,0 +1,70 @@
+
+Prequisites:7zip pitää olla asennettuna:eräs bat file käyttää sitä.
+Ja palvelimet pitää käynnistää ja sulkea järjestelmän valvojana(administrator) Shortcuttien kautta.
+Muuten palvelinsysteemi on hidas kuin mikä. 
+Ero on kymmenen sekunnin luokka käynnistyksen yhteydessä.
+
+Palvelinsysteemi koostuu:
+-Apache-nettipalvelimesta,jossa on sisällä PHP-skriptikieli.
+-MySql-tietokannasta.
+
+Pitää tietää jotain pientä IP-osoitteista ja "Porteista".
+
+PHPStorm ja TCPView  sekä MySqlWorkbench ja Adminer  ovat perustyövälineet
+palvelinsysteemin asetusten säädössä ja tarkkailussa.
+PHPStorm on erityisen hyvä ohjelma. Se on niin sanottu IDE.
+Sen erogonomia ja siten tuottavuus on valovuosia edellä kilpailijoita,
+kuten Eclipse ja Netbeans. (Siinä ei ole  tosin java-mahdollisuutta).
+Idea on, että oikeiden työvälineohjelmien valinnan  ja hallinnan avulla
+luulemisen tasoa lasketaan ja faktatiedon tasoa nostetaan.
+Sitten kun tulee tekninen ongelma(joita tulee aina),niin se voidaan ratkaista.
+Asiakkaallekin osataan sanoa oikeasti mikä on oikeasti mahdollista ja mikä ei.
+
+Palvelinsysteemin "päällä" ajetaan "frameworkkeja" kuten Wordpressia.
+Niitä on kymmeniä.
+Kehittäjät eivät tykkää niistä, koska ne tuottavat usein turhan abstraktio-kerrosviidakon
+varsinaisen PHP-abstaktion päälle.
+Tässä Phpstorm on erityisen avukas, koska sillä voi frameworkin
+sisuksia helposti tutkia "debuggaamalla".
+Se on myös tekstinkäsittelyyn oiva väline ja GIT-versionhallinta on kuosissa.
+
+MySql alustus ja jatkossa käytettävät bat-komentosarjat.
+
+Kaksi battia on alussa tärkeitä:
+--se jolla alustetaan alunperin MySql-Data-hakemisto:
+      .\twamp\installers\mysql
+  ALUSTA_MYSQL.bat,
+   jota käytetään vain, jos halutaan lähteä täysin puhtaalta pöydältä.
+   Silloin mahdollinen MySql-Data-hakemisto  mysql\mysql32\mysql32_5_7_17\data
+   pitää ensin olla poistettu käsipelillä.
+   -Pysäytä mysql
+   -poista data-hakemisto
+   -aja ALUSTA_MYSQL.bat
+   ALUSTA_MYSQL.bat luo data-hakemiston uudelleen ja alustaa MySql:n tarvitsemat sisäiset tietokantataulut.
+
+   Pöytää voisi tässä projektissa kuitenkin liata sen verran,
+   että siinä on valmiiksi alustettu MySql-Data-hakemisto.
+   Ja sinne lisätty root-käyttäjä ja sille salasana.
+   Lähdetään siis siitä,että  MySql-Data-hakemisto on valmiiksi alustettu root-käyttäjälle.
+   Eli ALUSTA_MYSQL.battia ei tarvitse ajaa.
+
+Alustuksen jälkeen käytetään käynnistys -ja sulkemis-batteja:
+   BASIC_START ja BASIC_STOP
+   Jos mysql on alustettu, voi sen heti testata BASIC_START ja BASIC_STOP bateilla.
+
+   Ne ovat myöhemminkin aina käytössä, kun palvelinkokonaisuus käynnistetään tai suljetaan.
+
+  WordPress-alustus
+  --mysqld palvelun pitää olla käynnissä! Siis BASIC_STARTin kautta.
+  --sitten voidaan painaa  ALUSTA_WORDPRESS.bat,
+  jolla luodaan tyhjä wordpress tietokanta ja siihen mysql-assosioidaan käyttäjä.
+
+  ALUSTA_WORDPRESS.batissa olevaa tietokannan nimeä
+   ja käyttäjän nimeä sekä salasanaa voi säätää.
+
+
+
+
+
+
+

@@ -1,0 +1,176 @@
+/* Sortable tables */
+table.sortable thead {
+    background-color: #363636;
+    color:#ff3333;
+    font-weight: bold;
+    cursor: default;
+ /*   position:fixed;*/
+}
+h1.hakuosuma {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+::-moz-selection { /* Code for Firefox */
+    color: red;
+    background: yellow;
+}
+
+::selection {
+    color: red;
+    background: yellow;
+}
+a:link {
+    color:#45bbe6;
+}
+a:active{
+    color:#ffff00;
+
+}
+a:visited{
+    color:#00ff00;
+
+}
+a:hover{
+    color:#33FF33;
+    font-size:20px;
+}
+
+
+td.sijoitus {color: #ff5306;}
+td.female {color: #f63bff; font-weight: bold;}
+td.malo {color: #66ffff;}
+td.etunimi {color: #ff6762;}
+td.sukunimi {color: #91ffa3;}
+td.suhdeluku {color: #66ffff;}
+td.kuntanimi {color: #f16aff;}
+td.asukasluku {color: #ff4b11;}
+
+
+
+
+
+
+/*
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+*/
+
+body {
+    height:800px;
+    color: #b8ff92;
+    /*background: radial-gradient(black,black ,blue ,green ,red);*/
+
+
+
+    background: radial-gradient(black,black , #00002b,#003950 , #5a1e66);
+    /*background: linear-gradient(270deg, #18f0b8, #18a2f0, #db5640);*/
+    background-size: 600% 600%;
+    -webkit-animation: Gradient 60s ease infinite;
+    -moz-animation: Gradient 60s ease infinite;
+    animation: Gradient 60s ease infinite;
+    /*margin-top:10px;*/
+
+    background-attachment: fixed;
+    /* Standard syntax (must be last) */
+
+}
+
+
+
+@-webkit-keyframes Gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes Gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes Gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+div.centr{margin:0 auto; text-align:left; width:550px;}
+div.sukunimikyselyt{color: #b8ff92;}
+div.etunimikyselyt{color: #ff7900;}
+div.kuntanimikyselyt{color: #b8ff92;}
+a.kehotus{ font-size:15px;}
+a.koodi{margin-left:20em; color:#e6402a;   font-size:10px;}
+
+
+#wrap {
+    margin: 10px auto;
+    background: #666;
+    padding: 10px;
+    width: 700px;
+}
+#header {
+    background-color: #666;
+    color: #FFF;
+}
+#logo {
+    font-size: 30px;
+    line-height: 40px;
+    padding: 5px;
+}
+
+#sortdiv1 {
+    height: 30px;
+    padding: 5px;
+    background: #999;
+}
+#sortdiv2 {
+    height: 30px;
+    padding: 5px;
+    background: #999;
+}
+#navWrap {
+    height: 30px;
+}
+#nav {
+    padding: 5px;
+    background: #999;
+}
+#nav ul {
+    margin: 0;
+    padding: 0;
+}
+#nav li {
+    float: left;
+    padding: 3px 8px;
+    background-color: #FFF;
+    margin: 0 10px 0 0;
+    color: #F00;
+    list-style-type: none;
+}
+#nav li a {
+    color: #F00;
+    text-decoration: none;
+}
+#nav li a:hover {
+    text-decoration: underline;
+}
+br.clearLeft {
+    clear: left;
+}​

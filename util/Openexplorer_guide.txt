@@ -1,0 +1,11 @@
+Avaa resurssienhallinnan siihen hakemistoon, jossa ohjelma itse on.
+Mutta jos hakemistoon on jo avattu explorer, ohjelma tuo sen eteen.
+Ko. openexplorille luodaan pikan‰pp‰in,
+jolla voidaan vaikka 30:st‰ explorer-ikkunasta tuoda haluttu esiin.
+Tavoite on nostaa tuottavuutta(so.v‰hent‰‰ sekaannusta),
+kun samaan hakemistoon kohdistuvia ylim‰‰r‰isi‰ explorerita ei j‰‰ notkumaan.
+
+First assign a shortcut-key for openexplorer.exe in preferred folder.
+The app opens file explorer in a directory that it resides.
+Cool thing and the point is:
+If there is already existing explorer window for that folder program fetches that in front.

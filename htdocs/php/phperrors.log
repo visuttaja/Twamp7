@@ -1,0 +1,94 @@
+[17-May-2016 01:34:53 Europe/Helsinki] PHP Warning:  file_get_contents(http://localhost/classes/a.html): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\bin\htdocs\php\rele.php on line 3
+[17-May-2016 01:34:53 Europe/Helsinki] PHP Stack trace:
+[17-May-2016 01:34:53 Europe/Helsinki] PHP   1. {main}() C:\bin\htdocs\php\rele.php:0
+[17-May-2016 01:34:53 Europe/Helsinki] PHP   2. file_get_contents() C:\bin\htdocs\php\rele.php:3
+[05-Jun-2016 23:37:09 Europe/Helsinki] PHP Fatal error:  Call to undefined function mb_convert_encoding() in C:\bin\htdocs\php\rele.php on line 4
+[29-Dec-2016 16:36:16 Europe/Helsinki] PHP Warning:  file_get_contents(http://localhost/classes/a.html): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\apa\r\bin\htdocs\php\rele.php on line 3
+[29-Dec-2016 16:40:41 Europe/Helsinki] PHP Warning:  file_get_contents(asiointipalvelut/index.php): failed to open stream: No such file or directory in C:\apa\r\bin\htdocs\php\rele.php on line 3
+[29-Dec-2016 16:40:42 Europe/Helsinki] PHP Warning:  file_get_contents(asiointipalvelut/index.php): failed to open stream: No such file or directory in C:\apa\r\bin\htdocs\php\rele.php on line 3
+[29-Dec-2016 16:42:00 Europe/Helsinki] PHP Warning:  file_get_contents(/asiointipalvelut/index.php): failed to open stream: No such file or directory in C:\apa\r\bin\htdocs\php\rele.php on line 3
+[29-Dec-2016 16:42:03 Europe/Helsinki] PHP Warning:  file_get_contents(/asiointipalvelut/index.php): failed to open stream: No such file or directory in C:\apa\r\bin\htdocs\php\rele.php on line 3
+[29-Dec-2016 17:17:25 Europe/Helsinki] PHP Fatal error:  Call to undefined function get_remote_data() in C:\apa\r\bin\htdocs\php\rele.php on line 4
+[29-Dec-2016 17:18:45 Europe/Helsinki] PHP Fatal error:  Call to undefined function get_remote_data() in C:\apa\r\bin\htdocs\php\rele.php on line 4
+[29-Dec-2016 17:19:51 Europe/Helsinki] PHP Fatal error:  Call to undefined function curl_init() in C:\apa\r\bin\htdocs\php\rele.php on line 10
+[29-Dec-2016 17:42:09 Europe/Helsinki] PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in C:\apa\r\bin\htdocs\php\rele.php:10
+Stack trace:
+#0 C:\apa\r\bin\htdocs\php\rele.php(4): get_remote_data('http://www.tuom...')
+#1 {main}
+  thrown in C:\apa\r\bin\htdocs\php\rele.php on line 10
+[29-Dec-2016 17:49:58 Europe/Helsinki] PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in C:\apa\r\bin\htdocs\php\rele.php:10
+Stack trace:
+#0 C:\apa\r\bin\htdocs\php\rele.php(4): get_remote_data('http://www.tuom...')
+#1 {main}
+  thrown in C:\apa\r\bin\htdocs\php\rele.php on line 10
+[29-Dec-2016 18:03:49 Europe/Helsinki] PHP Parse error:  syntax error, unexpected 'curl_close' (T_STRING) in C:\apa\r\bin\htdocs\php\rele.php on line 15
+[31-Dec-2016 17:46:29 Europe/Helsinki] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[31-Dec-2016 17:46:29 Europe/Helsinki] PHP Fatal error:  Unknown: Failed opening required 'C:/apa/r/bin/htdocs/php/päähpänffö.php' (include_path='.;C:\php\pear') in Unknown on line 0
+[31-Dec-2016 17:49:56 Europe/Helsinki] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[31-Dec-2016 17:49:56 Europe/Helsinki] PHP Fatal error:  Unknown: Failed opening required 'C:/apa/r/bin/htdocs/php/päähpänffö.php' (include_path='.;C:\php\pear') in Unknown on line 0
+[31-Dec-2016 17:51:22 Europe/Helsinki] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[31-Dec-2016 17:51:22 Europe/Helsinki] PHP Fatal error:  Unknown: Failed opening required 'C:/apa/r/bin/htdocs/php/päähpänffö.php' (include_path='.;C:\php\pear') in Unknown on line 0
+[31-Dec-2016 17:51:23 Europe/Helsinki] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[31-Dec-2016 17:51:23 Europe/Helsinki] PHP Fatal error:  Unknown: Failed opening required 'C:/apa/r/bin/htdocs/php/päähpänffö.php' (include_path='.;C:\php\pear') in Unknown on line 0
+[18-Jan-2017 09:31:45 Europe/Helsinki] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[18-Jan-2017 09:31:45 Europe/Helsinki] PHP Fatal error:  Unknown: Failed opening required 'C:/apa/r/bin/htdocs/php/älämölö.php' (include_path='.;C:\php\pear') in Unknown on line 0
+[18-Jan-2017 09:33:44 Europe/Helsinki] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[18-Jan-2017 09:33:44 Europe/Helsinki] PHP Fatal error:  Unknown: Failed opening required 'C:/apa/r/bin/htdocs/php/älämölö.php' (include_path='.;C:\php\pear') in Unknown on line 0
+[18-Jan-2017 09:34:04 Europe/Helsinki] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[18-Jan-2017 09:34:04 Europe/Helsinki] PHP Fatal error:  Unknown: Failed opening required 'C:/apa/r/bin/htdocs/php/älämölö.php' (include_path='.;C:\php\pear') in Unknown on line 0
+[18-Jan-2017 10:44:50 Europe/Helsinki] PHP Fatal error:  Call to undefined function curl_init() in C:\apa\r\bin\htdocs\php\rele.php on line 14
+[18-Jan-2017 10:44:50 Europe/Helsinki] PHP Stack trace:
+[18-Jan-2017 10:44:50 Europe/Helsinki] PHP   1. {main}() C:\apa\r\bin\htdocs\php\rele.php:0
+[18-Jan-2017 10:44:50 Europe/Helsinki] PHP   2. get_remote_data() C:\apa\r\bin\htdocs\php\rele.php:5
+[18-Jan-2017 10:46:30 Europe/Helsinki] PHP Fatal error:  Call to undefined function curl_init() in C:\apa\r\bin\htdocs\php\rele.php on line 14
+[18-Jan-2017 10:46:30 Europe/Helsinki] PHP Stack trace:
+[18-Jan-2017 10:46:30 Europe/Helsinki] PHP   1. {main}() C:\apa\r\bin\htdocs\php\rele.php:0
+[18-Jan-2017 10:46:30 Europe/Helsinki] PHP   2. get_remote_data() C:\apa\r\bin\htdocs\php\rele.php:5
+[21-Jan-2017 12:09:42 Europe/Helsinki] PHP Warning:  include(/php/libloader.php): failed to open stream: No such file or directory in C:\apa\r\bin\htdocs\php\yes.php on line 4
+[21-Jan-2017 12:09:42 Europe/Helsinki] PHP Stack trace:
+[21-Jan-2017 12:09:42 Europe/Helsinki] PHP   1. {main}() C:\apa\r\bin\htdocs\php\yes.php:0
+[21-Jan-2017 12:09:42 Europe/Helsinki] PHP Warning:  include(): Failed opening '/php/libloader.php' for inclusion (include_path='.;C:\php\pear') in C:\apa\r\bin\htdocs\php\yes.php on line 4
+[21-Jan-2017 12:09:42 Europe/Helsinki] PHP Stack trace:
+[21-Jan-2017 12:09:42 Europe/Helsinki] PHP   1. {main}() C:\apa\r\bin\htdocs\php\yes.php:0
+[21-Jan-2017 12:09:42 Europe/Helsinki] PHP Fatal error:  Call to undefined function get_jquery_gui_js() in C:\apa\r\bin\htdocs\php\yes.php on line 5
+[21-Jan-2017 12:09:42 Europe/Helsinki] PHP Stack trace:
+[21-Jan-2017 12:09:42 Europe/Helsinki] PHP   1. {main}() C:\apa\r\bin\htdocs\php\yes.php:0
+[21-Jan-2017 12:10:32 Europe/Helsinki] PHP Warning:  include(/php/libloader.php): failed to open stream: No such file or directory in C:\apa\r\bin\htdocs\php\yes.php on line 4
+[21-Jan-2017 12:10:32 Europe/Helsinki] PHP Stack trace:
+[21-Jan-2017 12:10:32 Europe/Helsinki] PHP   1. {main}() C:\apa\r\bin\htdocs\php\yes.php:0
+[21-Jan-2017 12:10:32 Europe/Helsinki] PHP Warning:  include(): Failed opening '/php/libloader.php' for inclusion (include_path='.;C:\php\pear') in C:\apa\r\bin\htdocs\php\yes.php on line 4
+[21-Jan-2017 12:10:32 Europe/Helsinki] PHP Stack trace:
+[21-Jan-2017 12:10:32 Europe/Helsinki] PHP   1. {main}() C:\apa\r\bin\htdocs\php\yes.php:0
+[21-Jan-2017 12:10:32 Europe/Helsinki] PHP Fatal error:  Call to undefined function get_jquery_gui_js() in C:\apa\r\bin\htdocs\php\yes.php on line 5
+[21-Jan-2017 12:10:32 Europe/Helsinki] PHP Stack trace:
+[21-Jan-2017 12:10:32 Europe/Helsinki] PHP   1. {main}() C:\apa\r\bin\htdocs\php\yes.php:0
+[31-Mar-2017 12:00:36 Europe/Helsinki] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[31-Mar-2017 12:00:36 Europe/Helsinki] PHP Fatal error:  Unknown: Failed opening required 'C:/apa/r/bin/htdocs/php/älämölö.php' (include_path='.;C:\php\pear') in Unknown on line 0
+[31-Mar-2017 12:00:47 Europe/Helsinki] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[31-Mar-2017 12:00:47 Europe/Helsinki] PHP Fatal error:  Unknown: Failed opening required 'C:/apa/r/bin/htdocs/php/älämölö.php' (include_path='.;C:\php\pear') in Unknown on line 0
+[26-Jul-2018 00:29:37 Europe/Helsinki] PHP Warning:  mysqli::mysqli(): (HY000/1044): Access denied for user 'php'@'localhost' to database 'mysql' in J:\Twamp\twamp\htdocs\php\mysql_show_variables.php on line 11
+[26-Jul-2018 00:29:37 Europe/Helsinki] PHP Fatal error:  Call to undefined function mysql_query() in J:\Twamp\twamp\htdocs\php\mysql_show_variables.php on line 13
+[26-Jul-2018 03:08:22 Europe/Helsinki] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'php'@'localhost' (using password: YES) in J:\Twamp\twamp\htdocs\php\mysql_show_variables.php on line 11
+[26-Jul-2018 03:08:22 Europe/Helsinki] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in J:\Twamp\twamp\htdocs\php\mysql_show_variables.php on line 13
+[26-Jul-2018 03:08:22 Europe/Helsinki] PHP Fatal error:  Call to a member function fetch_assoc() on null in J:\Twamp\twamp\htdocs\php\mysql_show_variables.php on line 14
+[27-Jul-2018 03:05:47 Europe/Helsinki] PHP Warning:  mysqli::mysqli(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in J:\TWAMPTEST\YrjYrittj\htdocs\php\mysql_show_variables.php on line 11
+[27-Jul-2018 03:05:47 Europe/Helsinki] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in J:\TWAMPTEST\YrjYrittj\htdocs\php\mysql_show_variables.php on line 13
+[27-Jul-2018 03:05:47 Europe/Helsinki] PHP Fatal error:  Call to a member function fetch_assoc() on null in J:\TWAMPTEST\YrjYrittj\htdocs\php\mysql_show_variables.php on line 14
+[28-Jul-2018 00:12:14 Europe/Helsinki] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'php'@'localhost' (using password: YES) in J:\TWAMP_PHP5 NIMET SALLII VALIT MUTTA EI UTFFAA\Yrjo Yrittaja\htdocs\php\mysql_show_variables.php on line 11
+[28-Jul-2018 00:12:14 Europe/Helsinki] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in J:\TWAMP_PHP5 NIMET SALLII VALIT MUTTA EI UTFFAA\Yrjo Yrittaja\htdocs\php\mysql_show_variables.php on line 13
+[28-Jul-2018 00:12:14 Europe/Helsinki] PHP Fatal error:  Call to a member function fetch_assoc() on null in J:\TWAMP_PHP5 NIMET SALLII VALIT MUTTA EI UTFFAA\Yrjo Yrittaja\htdocs\php\mysql_show_variables.php on line 14
+[28-Jul-2018 01:16:25 Europe/Helsinki] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'php'@'localhost' (using password: YES) in J:\TWAMP_PHP5 NIMET SALLII VALIT MUTTA EI UTFFAA\Yrjo Yrittaja\htdocs\php\mysql_show_variables.php on line 11
+[28-Jul-2018 01:16:25 Europe/Helsinki] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in J:\TWAMP_PHP5 NIMET SALLII VALIT MUTTA EI UTFFAA\Yrjo Yrittaja\htdocs\php\mysql_show_variables.php on line 13
+[28-Jul-2018 01:16:25 Europe/Helsinki] PHP Fatal error:  Call to a member function fetch_assoc() on null in J:\TWAMP_PHP5 NIMET SALLII VALIT MUTTA EI UTFFAA\Yrjo Yrittaja\htdocs\php\mysql_show_variables.php on line 14
+[28-Jul-2018 01:23:19 Europe/Helsinki] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'php'@'localhost' (using password: YES) in J:\TWAMP_PHP5 NIMET SALLII VALIT MUTTA EI UTFFAA\Yrjo Yrittaja\htdocs\php\mysql_show_variables.php on line 11
+[28-Jul-2018 01:23:19 Europe/Helsinki] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in J:\TWAMP_PHP5 NIMET SALLII VALIT MUTTA EI UTFFAA\Yrjo Yrittaja\htdocs\php\mysql_show_variables.php on line 13
+[28-Jul-2018 01:23:19 Europe/Helsinki] PHP Fatal error:  Call to a member function fetch_assoc() on null in J:\TWAMP_PHP5 NIMET SALLII VALIT MUTTA EI UTFFAA\Yrjo Yrittaja\htdocs\php\mysql_show_variables.php on line 14
+[28-Jul-2018 02:30:33 Europe/Helsinki] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'php'@'localhost' (using password: YES) in J:\TWAMP_PHP5 NIMET SALLII VALIT MUTTA EI UTFFAA\Yrjo Yrittaja\htdocs\php\mysql_show_variables.php on line 11
+[28-Jul-2018 02:30:33 Europe/Helsinki] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in J:\TWAMP_PHP5 NIMET SALLII VALIT MUTTA EI UTFFAA\Yrjo Yrittaja\htdocs\php\mysql_show_variables.php on line 13
+[28-Jul-2018 02:30:33 Europe/Helsinki] PHP Fatal error:  Call to a member function fetch_assoc() on null in J:\TWAMP_PHP5 NIMET SALLII VALIT MUTTA EI UTFFAA\Yrjo Yrittaja\htdocs\php\mysql_show_variables.php on line 14
+[28-Jul-2018 23:24:46 Europe/Helsinki] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'php'@'localhost' (using password: YES) in J:\TWAMP_PHP5 NIMET SALLII VALIT MUTTA EI UTFFAA\Yrjo Yrittaja\htdocs\php\mysql_show_variables.php on line 11
+[28-Jul-2018 23:24:46 Europe/Helsinki] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in J:\TWAMP_PHP5 NIMET SALLII VALIT MUTTA EI UTFFAA\Yrjo Yrittaja\htdocs\php\mysql_show_variables.php on line 13
+[28-Jul-2018 23:24:46 Europe/Helsinki] PHP Fatal error:  Call to a member function fetch_assoc() on null in J:\TWAMP_PHP5 NIMET SALLII VALIT MUTTA EI UTFFAA\Yrjo Yrittaja\htdocs\php\mysql_show_variables.php on line 14
