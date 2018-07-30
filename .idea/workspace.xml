@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5114f9a0-0b34-4bbe-ad1b-9061adf98206" name="Default" comment="Reorder bats">
-      <change type="DELETED" beforePath="J:\TWAMP_PHP7\twamp7\NOPoista.bat" afterPath="" />
-      <change type="DELETED" beforePath="J:\TWAMP_PHP7\twamp7\installers\htdocs\distro\installers.zip" afterPath="" />
+    <list default="true" id="5114f9a0-0b34-4bbe-ad1b-9061adf98206" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AlustaGit.bat" afterPath="$PROJECT_DIR$/AlustaGit.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OHJETTA.txt" afterPath="$PROJECT_DIR$/OHJETTA.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Yrjö Yrittäjä.iws" />
@@ -36,8 +31,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24247491" vertical-offset="0" max-vertical-offset="598">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.2909699" vertical-offset="0" max-vertical-offset="598">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -52,6 +47,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -248,7 +244,19 @@
       <option name="project" value="LOCAL" />
       <updated>1532913027769</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Rename bats">
+      <created>1532913092223</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1532913092223</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Main install Bats">
+      <created>1532913180931</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1532913180931</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -314,7 +322,9 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Reorder bats" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reorder bats" />
+    <MESSAGE value="Rename bats" />
+    <MESSAGE value="Main install Bats" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main install Bats" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>J:\TWAMP_PHP7\twamp7\htdocs\wordpress</wordpressPath>
@@ -434,8 +444,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24247491" vertical-offset="0" max-vertical-offset="598">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.2909699" vertical-offset="0" max-vertical-offset="598">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>

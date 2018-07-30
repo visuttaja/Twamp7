@@ -3,4 +3,6 @@ server/httpd-2.4.34-win64-VC15
 server/php-7.2.8-Win32-VC15-x64
 htdocs/distro
 /mysql/mysql32/mysql32_5_7_17/data
+./.idea/workspace.xml
+
 
