@@ -24,7 +24,7 @@ Palvelinsysteemin "päällä" ajetaan "frameworkkeja" kuten Wordpressia.
 Niitä on kymmeniä.
 Kehittäjät eivät tykkää niistä, koska ne tuottavat usein turhan abstraktio-kerrosviidakon
 varsinaisen PHP-abstaktion päälle.
-Tässä Phpstorm on erityisen avukas, koska sillä voi frameworkin
+Tässä Phpstorm-IDE on erityisen avukas, koska sillä voi frameworkin
 sisuksia helposti tutkia "debuggaamalla".
 Se on myös tekstinkäsittelyyn oiva väline ja GIT-versionhallinta on kuosissa.
 
