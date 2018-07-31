@@ -5,19 +5,20 @@ echo ********************************
 echo älämölö
 echo ********************************
 echo extracting server
-rem call .\..\..\set_roots.bat
 pushd "%~dp0"
+call ".\..\..\set_roots.bat"
+
 set old_path=%path%
 
 SETLOCAL ENABLEDELAYEDEXPANSION
 set path=%path;%C:\Program Files\7-Zip
 cd "%siteroot%\server"
-
-for /f "delims=" %%a IN ('dir /b /s .\*.7z') do (
+echo check
+for /f "delims=" %%a IN ('dir /b /s .\*.zip') do (
 rem if ZIP:
-rem 7z x %%~nxa -o* -y
+7z x %%~nxa -o* -y
 rem if 7z
-7z x %%~nxa -y
+rem 7z x %%~nxa -y
 )
 
 set path=%old_path%

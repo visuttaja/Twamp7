@@ -375,3 +375,24 @@ PHP:  syntax error, unexpected $end, expecting TC_DOLLAR_CURLY or TC_QUOTED_STRI
 [Mon Jul 30 10:44:25.253640 2018] [rewrite:trace2] [pid 24940:tid 1180] mod_rewrite.c(482): [client ::1:63721] ::1 - - [localhost/sid#285bd2ec448][rid#285bd348f40/initial] init rewrite engine with requested uri /wordpress/images/spinner-2x.gif, referer: http://localhost/wordpress/wp-admin/setup-config.php
 [Mon Jul 30 10:44:25.253640 2018] [rewrite:trace1] [pid 24940:tid 1180] mod_rewrite.c(482): [client ::1:63721] ::1 - - [localhost/sid#285bd2ec448][rid#285bd348f40/initial] pass through /wordpress/images/spinner-2x.gif, referer: http://localhost/wordpress/wp-admin/setup-config.php
 [Tue Jul 31 03:43:29.978985 2018] [mpm_winnt:notice] [pid 24940:tid 716] AH00364: Child: All worker threads have exited.
+[Tue Jul 31 04:15:10.968210 2018] [core:warn] [pid 20008:tid 588] AH00098: pid file J:/TWAMP_PHP7/twamp7/logs/apache.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP:  syntax error, unexpected $end, expecting TC_DOLLAR_CURLY or TC_QUOTED_STRING or '"' in J:\TWAMP_PHP7\twamp7\php.ini on line 56
+[Tue Jul 31 04:15:10.983208 2018] [mpm_winnt:notice] [pid 20008:tid 588] AH00455: Apache/2.4.34 (Win64) PHP/7.2.8 configured -- resuming normal operations
+[Tue Jul 31 04:15:10.983208 2018] [mpm_winnt:notice] [pid 20008:tid 588] AH00456: Apache Lounge VC15 Server built: Jul 11 2018 13:09:01
+[Tue Jul 31 04:15:10.983208 2018] [core:notice] [pid 20008:tid 588] AH00094: Command line: 'httpd -d J:/TWAMP_PHP7/twamp7/server/httpd-2.4.34-win64-VC15/Apache24 -f J:\\TWAMP_PHP7\\twamp7/httpd.conf'
+[Tue Jul 31 04:15:10.985204 2018] [mpm_winnt:notice] [pid 20008:tid 588] AH00418: Parent: Created child process 26200
+PHP:  syntax error, unexpected $end, expecting TC_DOLLAR_CURLY or TC_QUOTED_STRING or '"' in J:\TWAMP_PHP7\twamp7\php.ini on line 56
+[Tue Jul 31 04:15:11.352083 2018] [mpm_winnt:notice] [pid 26200:tid 4] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 31 04:15:19.830647 2018] [rewrite:trace2] [pid 26200:tid 1160] mod_rewrite.c(482): [client ::1:55614] ::1 - - [localhost/sid#15c73ea6cd8][rid#15c73f05090/initial] init rewrite engine with requested uri /
+[Tue Jul 31 04:15:19.831645 2018] [rewrite:trace1] [pid 26200:tid 1160] mod_rewrite.c(482): [client ::1:55614] ::1 - - [localhost/sid#15c73ea6cd8][rid#15c73f05090/initial] pass through /
+[Tue Jul 31 04:15:19.831645 2018] [rewrite:trace2] [pid 26200:tid 1160] mod_rewrite.c(482): [client ::1:55614] ::1 - - [localhost/sid#15c73ea6cd8][rid#15c73efb040/subreq] init rewrite engine with requested uri /index.html
+[Tue Jul 31 04:15:19.831645 2018] [rewrite:trace1] [pid 26200:tid 1160] mod_rewrite.c(482): [client ::1:55614] ::1 - - [localhost/sid#15c73ea6cd8][rid#15c73efb040/subreq] pass through /index.html
+[Tue Jul 31 04:15:19.831645 2018] [rewrite:trace2] [pid 26200:tid 1160] mod_rewrite.c(482): [client ::1:55614] ::1 - - [localhost/sid#15c73ea6cd8][rid#15c73efb040/subreq] init rewrite engine with requested uri /index.php
+[Tue Jul 31 04:15:19.831645 2018] [rewrite:trace1] [pid 26200:tid 1160] mod_rewrite.c(482): [client ::1:55614] ::1 - - [localhost/sid#15c73ea6cd8][rid#15c73efb040/subreq] pass through /index.php
+[Tue Jul 31 04:15:22.363816 2018] [rewrite:trace2] [pid 26200:tid 1160] mod_rewrite.c(482): [client ::1:55614] ::1 - - [localhost/sid#15c73ea6cd8][rid#15c73f090b0/initial] init rewrite engine with requested uri /php/phpinfo.php, referer: http://localhost/
+[Tue Jul 31 04:15:22.363816 2018] [rewrite:trace1] [pid 26200:tid 1160] mod_rewrite.c(482): [client ::1:55614] ::1 - - [localhost/sid#15c73ea6cd8][rid#15c73f090b0/initial] pass through /php/phpinfo.php, referer: http://localhost/
+[Tue Jul 31 04:15:53.906587 2018] [rewrite:trace2] [pid 26200:tid 1160] mod_rewrite.c(482): [client ::1:55646] ::1 - - [localhost/sid#15c73ea6cd8][rid#15c76622420/initial] init rewrite engine with requested uri /distro/twamp7.zip, referer: http://localhost/
+[Tue Jul 31 04:15:53.906587 2018] [rewrite:trace1] [pid 26200:tid 1160] mod_rewrite.c(482): [client ::1:55646] ::1 - - [localhost/sid#15c73ea6cd8][rid#15c76622420/initial] pass through /distro/twamp7.zip, referer: http://localhost/
+[Tue Jul 31 04:16:16.784095 2018] [mpm_winnt:notice] [pid 26200:tid 1188] (OS 10038)An operation was attempted on something that is not a socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Tue Jul 31 04:16:16.784095 2018] [mpm_winnt:notice] [pid 26200:tid 1316] (OS 10038)An operation was attempted on something that is not a socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Tue Jul 31 04:16:18.786439 2018] [mpm_winnt:notice] [pid 26200:tid 4] AH00364: Child: All worker threads have exited.
