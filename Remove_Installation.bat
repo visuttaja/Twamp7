@@ -1,5 +1,6 @@
 @echo off
-
+pushd %~dp0%
+chcp 65001
 :: BatchGotAdmin (Run as Admin code starts)
 REM  --> Check for permissions
 >nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
@@ -28,7 +29,7 @@ if '%errorlevel%' NEQ '0' (
 @echo off
 :: Article: http://www.techgainer.com/create-batch-file-automatically-run-administrator
 :: Your code starts from here
-
+popd
 pushd "%~dp0"
 chcp 65001
 echo off

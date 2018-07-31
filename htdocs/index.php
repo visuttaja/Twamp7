@@ -57,7 +57,7 @@
         echo 'Download '.$filename. ' Twamp-server';
     echo '</a><br>';
 
-	echo "Koko:" . human_filesize( filesize( 'distro/'.$filename ) ) . "<br>";
+	echo "Size:" . human_filesize( filesize( 'distro/'.$filename ) ) . "<br>";
 	echo muokattu( $filename );
 
 	?>
