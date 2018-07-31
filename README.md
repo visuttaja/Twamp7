@@ -1,5 +1,5 @@
 # Twamp7
-One click install WAMP-stack.UTF Paths. Should be serving in less than 5minutes. 
+One click install WAMP-stack.UTF Paths. Should be serving in less than 3 minutes. 
 PHP7 is Very Fast.Standalone lightweight. Windows, Apache, MySQL, PHP7, Xdebug. 
 Created for for educational and rapid development purposes.
 What you need:
