@@ -1220,3 +1220,18 @@ PHP:  syntax error, unexpected $end, expecting TC_DOLLAR_CURLY or TC_QUOTED_STRI
 [Tue Jul 31 16:58:47.868379 2018] [rewrite:trace2] [pid 23608:tid 1160] mod_rewrite.c(482): [client ::1:56815] ::1 - - [localhost/sid#28f555ba428][rid#28f5561d7c0/subreq] init rewrite engine with requested uri /index.php
 [Tue Jul 31 16:58:47.868379 2018] [rewrite:trace1] [pid 23608:tid 1160] mod_rewrite.c(482): [client ::1:56815] ::1 - - [localhost/sid#28f555ba428][rid#28f5561d7c0/subreq] pass through /index.php
 [Tue Jul 31 17:00:50.880977 2018] [mpm_winnt:notice] [pid 23608:tid 632] AH00364: Child: All worker threads have exited.
+[Tue Jul 31 17:48:41.243595 2018] [core:warn] [pid 30256:tid 468] AH00098: pid file J:/TWAMP_PHP7/twamp7/logs/apache.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP:  syntax error, unexpected $end, expecting TC_DOLLAR_CURLY or TC_QUOTED_STRING or '"' in J:\TWAMP_PHP7\twamp7\php.ini on line 56
+[Tue Jul 31 17:48:41.255590 2018] [mpm_winnt:notice] [pid 30256:tid 468] AH00455: Apache/2.4.34 (Win64) PHP/7.2.8 configured -- resuming normal operations
+[Tue Jul 31 17:48:41.255590 2018] [mpm_winnt:notice] [pid 30256:tid 468] AH00456: Apache Lounge VC15 Server built: Jul 11 2018 13:09:01
+[Tue Jul 31 17:48:41.255590 2018] [core:notice] [pid 30256:tid 468] AH00094: Command line: 'httpd -d J:/TWAMP_PHP7/twamp7/server/httpd-2.4.34-win64-VC15/Apache24 -f J:\\TWAMP_PHP7\\twamp7/httpd.conf'
+[Tue Jul 31 17:48:41.257589 2018] [mpm_winnt:notice] [pid 30256:tid 468] AH00418: Parent: Created child process 29652
+PHP:  syntax error, unexpected $end, expecting TC_DOLLAR_CURLY or TC_QUOTED_STRING or '"' in J:\TWAMP_PHP7\twamp7\php.ini on line 56
+[Tue Jul 31 17:48:41.669454 2018] [mpm_winnt:notice] [pid 29652:tid 672] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 31 17:48:41.670453 2018] [rewrite:trace2] [pid 29652:tid 1160] mod_rewrite.c(482): [client ::1:62362] ::1 - - [localhost/sid#23daf4c5ce8][rid#23daf51af00/initial] init rewrite engine with requested uri /
+[Tue Jul 31 17:48:41.670453 2018] [rewrite:trace1] [pid 29652:tid 1160] mod_rewrite.c(482): [client ::1:62362] ::1 - - [localhost/sid#23daf4c5ce8][rid#23daf51af00/initial] pass through /
+[Tue Jul 31 17:48:41.670453 2018] [rewrite:trace2] [pid 29652:tid 1160] mod_rewrite.c(482): [client ::1:62362] ::1 - - [localhost/sid#23daf4c5ce8][rid#23daf50ce90/subreq] init rewrite engine with requested uri /index.html
+[Tue Jul 31 17:48:41.671454 2018] [rewrite:trace1] [pid 29652:tid 1160] mod_rewrite.c(482): [client ::1:62362] ::1 - - [localhost/sid#23daf4c5ce8][rid#23daf50ce90/subreq] pass through /index.html
+[Tue Jul 31 17:48:41.671454 2018] [rewrite:trace2] [pid 29652:tid 1160] mod_rewrite.c(482): [client ::1:62362] ::1 - - [localhost/sid#23daf4c5ce8][rid#23daf50ce90/subreq] init rewrite engine with requested uri /index.php
+[Tue Jul 31 17:48:41.671454 2018] [rewrite:trace1] [pid 29652:tid 1160] mod_rewrite.c(482): [client ::1:62362] ::1 - - [localhost/sid#23daf4c5ce8][rid#23daf50ce90/subreq] pass through /index.php
+[Tue Jul 31 17:49:49.968127 2018] [mpm_winnt:notice] [pid 29652:tid 672] AH00364: Child: All worker threads have exited.
