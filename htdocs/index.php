@@ -54,7 +54,7 @@
     //$filename=htmlentities($filename);
     $link_name ='distro/'.$filenameEnc;
     echo '<a href='.$link_name.'>'.'<br>';
-        echo 'Download TWAMP';
+        echo 'Download '.$filename. ' Twamp-server';
     echo '</a><br>';
 
 	echo "Koko:" . human_filesize( filesize( 'distro/'.$filename ) ) . "<br>";

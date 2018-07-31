@@ -1235,3 +1235,27 @@ PHP:  syntax error, unexpected $end, expecting TC_DOLLAR_CURLY or TC_QUOTED_STRI
 [Tue Jul 31 17:48:41.671454 2018] [rewrite:trace2] [pid 29652:tid 1160] mod_rewrite.c(482): [client ::1:62362] ::1 - - [localhost/sid#23daf4c5ce8][rid#23daf50ce90/subreq] init rewrite engine with requested uri /index.php
 [Tue Jul 31 17:48:41.671454 2018] [rewrite:trace1] [pid 29652:tid 1160] mod_rewrite.c(482): [client ::1:62362] ::1 - - [localhost/sid#23daf4c5ce8][rid#23daf50ce90/subreq] pass through /index.php
 [Tue Jul 31 17:49:49.968127 2018] [mpm_winnt:notice] [pid 29652:tid 672] AH00364: Child: All worker threads have exited.
+[Tue Jul 31 18:00:41.182778 2018] [core:warn] [pid 27536:tid 600] AH00098: pid file J:/TWAMP_PHP7/twamp7/logs/apache.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP:  syntax error, unexpected $end, expecting TC_DOLLAR_CURLY or TC_QUOTED_STRING or '"' in J:\TWAMP_PHP7\twamp7\php.ini on line 56
+[Tue Jul 31 18:00:41.196770 2018] [mpm_winnt:notice] [pid 27536:tid 600] AH00455: Apache/2.4.34 (Win64) PHP/7.2.8 configured -- resuming normal operations
+[Tue Jul 31 18:00:41.196770 2018] [mpm_winnt:notice] [pid 27536:tid 600] AH00456: Apache Lounge VC15 Server built: Jul 11 2018 13:09:01
+[Tue Jul 31 18:00:41.196770 2018] [core:notice] [pid 27536:tid 600] AH00094: Command line: 'httpd -d J:/TWAMP_PHP7/twamp7/server/httpd-2.4.34-win64-VC15/Apache24 -f J:\\TWAMP_PHP7\\twamp7/httpd.conf'
+[Tue Jul 31 18:00:41.198770 2018] [mpm_winnt:notice] [pid 27536:tid 600] AH00418: Parent: Created child process 32812
+PHP:  syntax error, unexpected $end, expecting TC_DOLLAR_CURLY or TC_QUOTED_STRING or '"' in J:\TWAMP_PHP7\twamp7\php.ini on line 56
+[Tue Jul 31 18:00:41.595638 2018] [mpm_winnt:notice] [pid 32812:tid 4] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 31 18:00:41.596638 2018] [rewrite:trace2] [pid 32812:tid 1160] mod_rewrite.c(482): [client ::1:63818] ::1 - - [localhost/sid#1ac055504f8][rid#1ac05597250/initial] init rewrite engine with requested uri /
+[Tue Jul 31 18:00:41.596638 2018] [rewrite:trace1] [pid 32812:tid 1160] mod_rewrite.c(482): [client ::1:63818] ::1 - - [localhost/sid#1ac055504f8][rid#1ac05597250/initial] pass through /
+[Tue Jul 31 18:00:41.597638 2018] [rewrite:trace2] [pid 32812:tid 1160] mod_rewrite.c(482): [client ::1:63818] ::1 - - [localhost/sid#1ac055504f8][rid#1ac0559f290/subreq] init rewrite engine with requested uri /index.html
+[Tue Jul 31 18:00:41.597638 2018] [rewrite:trace1] [pid 32812:tid 1160] mod_rewrite.c(482): [client ::1:63818] ::1 - - [localhost/sid#1ac055504f8][rid#1ac0559f290/subreq] pass through /index.html
+[Tue Jul 31 18:00:41.597638 2018] [rewrite:trace2] [pid 32812:tid 1160] mod_rewrite.c(482): [client ::1:63818] ::1 - - [localhost/sid#1ac055504f8][rid#1ac0559f290/subreq] init rewrite engine with requested uri /index.php
+[Tue Jul 31 18:00:41.597638 2018] [rewrite:trace1] [pid 32812:tid 1160] mod_rewrite.c(482): [client ::1:63818] ::1 - - [localhost/sid#1ac055504f8][rid#1ac0559f290/subreq] pass through /index.php
+[Tue Jul 31 18:01:00.413514 2018] [rewrite:trace2] [pid 32812:tid 1160] mod_rewrite.c(482): [client ::1:63840] ::1 - - [localhost/sid#1ac055504f8][rid#1ac07b470a0/initial] init rewrite engine with requested uri /
+[Tue Jul 31 18:01:00.413514 2018] [rewrite:trace1] [pid 32812:tid 1160] mod_rewrite.c(482): [client ::1:63840] ::1 - - [localhost/sid#1ac055504f8][rid#1ac07b470a0/initial] pass through /
+[Tue Jul 31 18:01:00.413514 2018] [rewrite:trace2] [pid 32812:tid 1160] mod_rewrite.c(482): [client ::1:63840] ::1 - - [localhost/sid#1ac055504f8][rid#1ac07b3f060/subreq] init rewrite engine with requested uri /index.html
+[Tue Jul 31 18:01:00.413514 2018] [rewrite:trace1] [pid 32812:tid 1160] mod_rewrite.c(482): [client ::1:63840] ::1 - - [localhost/sid#1ac055504f8][rid#1ac07b3f060/subreq] pass through /index.html
+[Tue Jul 31 18:01:00.413514 2018] [rewrite:trace2] [pid 32812:tid 1160] mod_rewrite.c(482): [client ::1:63840] ::1 - - [localhost/sid#1ac055504f8][rid#1ac07b3f060/subreq] init rewrite engine with requested uri /index.php
+[Tue Jul 31 18:01:00.413514 2018] [rewrite:trace1] [pid 32812:tid 1160] mod_rewrite.c(482): [client ::1:63840] ::1 - - [localhost/sid#1ac055504f8][rid#1ac07b3f060/subreq] pass through /index.php
+[Tue Jul 31 18:01:01.050305 2018] [rewrite:trace2] [pid 32812:tid 1160] mod_rewrite.c(482): [client ::1:63840] ::1 - - [localhost/sid#1ac055504f8][rid#1ac07b490b0/initial] init rewrite engine with requested uri /styles/style_warm.css, referer: http://localhost/
+[Tue Jul 31 18:01:01.050305 2018] [rewrite:trace1] [pid 32812:tid 1160] mod_rewrite.c(482): [client ::1:63840] ::1 - - [localhost/sid#1ac055504f8][rid#1ac07b490b0/initial] pass through /styles/style_warm.css, referer: http://localhost/
+[Tue Jul 31 18:01:25.676241 2018] [rewrite:trace2] [pid 32812:tid 1160] mod_rewrite.c(482): [client ::1:63868] ::1 - - [localhost/sid#1ac055504f8][rid#1ac07b510f0/initial] init rewrite engine with requested uri /distro/twamp7.zip, referer: http://localhost/
+[Tue Jul 31 18:01:25.676241 2018] [rewrite:trace1] [pid 32812:tid 1160] mod_rewrite.c(482): [client ::1:63868] ::1 - - [localhost/sid#1ac055504f8][rid#1ac07b510f0/initial] pass through /distro/twamp7.zip, referer: http://localhost/
