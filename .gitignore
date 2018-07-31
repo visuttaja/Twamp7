@@ -5,6 +5,9 @@ server/xdebuglogs
 htdocs/distro
 htdocs/wordpress
 mysql/mysql32/mysql32_5_7_17/data
+starters/apache/cmd_process_info.txt
+starters/apache/cmd_process_pid.txt
+logs/apache_error.log
 .idea/workspace.xml
 .idea/
 

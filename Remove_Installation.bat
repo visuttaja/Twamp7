@@ -11,6 +11,8 @@ echo %mysql_data_dir%
 rmdir "%mysql_root%\%mysql_versions_dir%\%mysql_current_version%  /S /Q
 rem rmdir "%mysql_data_dir%" /S /Q
 rem rmdir /s "%siteroot%/htdocs/wordpress" /S /Q
+rmdir %apache_root%  /S /Q
+rmdir %php_root%  /S /Q
 
 pause
 popd
