@@ -6,7 +6,7 @@ What you need:
 A. 7zip
 B. VC15
 What you get. One Click install.
-Compatible set up of Wamp stack. Still you can test other versions from php.net and apachelounge
+Compatible set up of Wamp stack. You can test other versions from php.net and apachelounge
 without changing configuration.
 1. PHP php-7.2.8-Win32-VC15-x64.zip loaded from https://windows.php.net/download/
 2. APACHE httpd-2.4.34-win64-VC15.zip loaded from http://www.apachelounge.com/download/
