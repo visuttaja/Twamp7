@@ -8,6 +8,12 @@ if exist restart.lnk del restart.lnk
 if exist starts.lnk del starts.lnk
 if exist stop.lnk del stop.lnk
 
+for /f "delims=" %%a IN ('dir /b /s .\htdocs\distro\*.zip') do (
+ echo %%~nxa
+ del "%%~fa"
+)
+
+
 call set_roots.bat
 call set_mysql_environment.bat
 

@@ -1185,3 +1185,38 @@ PHP:  syntax error, unexpected $end, expecting TC_DOLLAR_CURLY or TC_QUOTED_STRI
 [Tue Jul 31 16:43:53.773368 2018] [rewrite:trace1] [pid 28020:tid 1184] mod_rewrite.c(482): [client ::1:55270] ::1 - - [localhost/sid#2a36ccea558][rid#2a36cd38510/initial] pass through /styles/style_warm.css, referer: http://localhost/
 [Tue Jul 31 16:43:58.675764 2018] [rewrite:trace2] [pid 28020:tid 1184] mod_rewrite.c(482): [client ::1:55270] ::1 - - [localhost/sid#2a36ccea558][rid#2a36cd36500/initial] init rewrite engine with requested uri /distro/K\xc3\xb6r\xc3\xb6 K\xc3\xb6r\xc3\xb6.zip, referer: http://localhost/
 [Tue Jul 31 16:43:58.675764 2018] [rewrite:trace1] [pid 28020:tid 1184] mod_rewrite.c(482): [client ::1:55270] ::1 - - [localhost/sid#2a36ccea558][rid#2a36cd36500/initial] pass through /distro/K\xc3\xb6r\xc3\xb6 K\xc3\xb6r\xc3\xb6.zip, referer: http://localhost/
+[Tue Jul 31 16:47:12.876390 2018] [mpm_winnt:notice] [pid 28020:tid 664] AH00364: Child: All worker threads have exited.
+[Tue Jul 31 16:48:51.086264 2018] [core:warn] [pid 30920:tid 584] AH00098: pid file J:/TWAMP_PHP7/twamp7/logs/apache.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP:  syntax error, unexpected $end, expecting TC_DOLLAR_CURLY or TC_QUOTED_STRING or '"' in J:\TWAMP_PHP7\twamp7\php.ini on line 56
+[Tue Jul 31 16:48:51.098259 2018] [mpm_winnt:notice] [pid 30920:tid 584] AH00455: Apache/2.4.34 (Win64) PHP/7.2.8 configured -- resuming normal operations
+[Tue Jul 31 16:48:51.098259 2018] [mpm_winnt:notice] [pid 30920:tid 584] AH00456: Apache Lounge VC15 Server built: Jul 11 2018 13:09:01
+[Tue Jul 31 16:48:51.098259 2018] [core:notice] [pid 30920:tid 584] AH00094: Command line: 'httpd -d J:/TWAMP_PHP7/twamp7/server/httpd-2.4.34-win64-VC15/Apache24 -f J:\\TWAMP_PHP7\\twamp7/httpd.conf'
+[Tue Jul 31 16:48:51.100258 2018] [mpm_winnt:notice] [pid 30920:tid 584] AH00418: Parent: Created child process 32836
+Apache server shutdown initiated...
+ expecting TC_DOLLAR_CURLY or TC_QUOTED_STRING or '"' in J:\TWAMP_PHP7\twamp7\php.ini on line 56
+[Tue Jul 31 16:48:51.529119 2018] [mpm_winnt:notice] [pid 32836:tid 540] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 31 16:49:08.145677 2018] [rewrite:trace2] [pid 32836:tid 1160] mod_rewrite.c(482): [client ::1:55843] ::1 - - [localhost/sid#20e1efdaa08][rid#20e1f01e850/initial] init rewrite engine with requested uri /
+[Tue Jul 31 16:49:08.145677 2018] [rewrite:trace1] [pid 32836:tid 1160] mod_rewrite.c(482): [client ::1:55843] ::1 - - [localhost/sid#20e1efdaa08][rid#20e1f01e850/initial] pass through /
+[Tue Jul 31 16:49:08.146677 2018] [rewrite:trace2] [pid 32836:tid 1160] mod_rewrite.c(482): [client ::1:55843] ::1 - - [localhost/sid#20e1efdaa08][rid#20e21630610/subreq] init rewrite engine with requested uri /index.html
+[Tue Jul 31 16:49:08.146677 2018] [rewrite:trace1] [pid 32836:tid 1160] mod_rewrite.c(482): [client ::1:55843] ::1 - - [localhost/sid#20e1efdaa08][rid#20e21630610/subreq] pass through /index.html
+[Tue Jul 31 16:49:08.146677 2018] [rewrite:trace2] [pid 32836:tid 1160] mod_rewrite.c(482): [client ::1:55843] ::1 - - [localhost/sid#20e1efdaa08][rid#20e21630610/subreq] init rewrite engine with requested uri /index.php
+[Tue Jul 31 16:49:08.146677 2018] [rewrite:trace1] [pid 32836:tid 1160] mod_rewrite.c(482): [client ::1:55843] ::1 - - [localhost/sid#20e1efdaa08][rid#20e21630610/subreq] pass through /index.php
+[Tue Jul 31 16:49:08.652514 2018] [rewrite:trace2] [pid 32836:tid 1160] mod_rewrite.c(482): [client ::1:55843] ::1 - - [localhost/sid#20e1efdaa08][rid#20e2162e600/initial] init rewrite engine with requested uri /styles/style_warm.css, referer: http://localhost/
+[Tue Jul 31 16:49:08.652514 2018] [rewrite:trace1] [pid 32836:tid 1160] mod_rewrite.c(482): [client ::1:55843] ::1 - - [localhost/sid#20e1efdaa08][rid#20e2162e600/initial] pass through /styles/style_warm.css, referer: http://localhost/
+[Tue Jul 31 16:57:16.006202 2018] [mpm_winnt:notice] [pid 30920:tid 584] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jul 31 16:57:18.008292 2018] [mpm_winnt:notice] [pid 32836:tid 540] AH00364: Child: All worker threads have exited.
+[Tue Jul 31 16:57:18.030284 2018] [mpm_winnt:notice] [pid 30920:tid 584] AH00430: Parent: Child process 32836 exited successfully.
+PHP:  syntax error, unexpected $end, expecting TC_DOLLAR_CURLY or TC_QUOTED_STRING or '"' in J:\TWAMP_PHP7\twamp7\php.ini on line 56
+[Tue Jul 31 16:58:47.383538 2018] [mpm_winnt:notice] [pid 33420:tid 680] AH00455: Apache/2.4.34 (Win64) PHP/7.2.8 configured -- resuming normal operations
+[Tue Jul 31 16:58:47.383538 2018] [mpm_winnt:notice] [pid 33420:tid 680] AH00456: Apache Lounge VC15 Server built: Jul 11 2018 13:09:01
+[Tue Jul 31 16:58:47.383538 2018] [core:notice] [pid 33420:tid 680] AH00094: Command line: 'httpd -d J:/TWAMP_PHP7/twamp7/server/httpd-2.4.34-win64-VC15/Apache24 -f J:\\TWAMP_PHP7\\twamp7/httpd.conf'
+[Tue Jul 31 16:58:47.385537 2018] [mpm_winnt:notice] [pid 33420:tid 680] AH00418: Parent: Created child process 23608
+PHP:  syntax error, unexpected $end, expecting TC_DOLLAR_CURLY or TC_QUOTED_STRING or '"' in J:\TWAMP_PHP7\twamp7\php.ini on line 56
+[Tue Jul 31 16:58:47.866379 2018] [mpm_winnt:notice] [pid 23608:tid 632] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 31 16:58:47.868379 2018] [rewrite:trace2] [pid 23608:tid 1160] mod_rewrite.c(482): [client ::1:56815] ::1 - - [localhost/sid#28f555ba428][rid#28f55611760/initial] init rewrite engine with requested uri /
+[Tue Jul 31 16:58:47.868379 2018] [rewrite:trace1] [pid 23608:tid 1160] mod_rewrite.c(482): [client ::1:56815] ::1 - - [localhost/sid#28f555ba428][rid#28f55611760/initial] pass through /
+[Tue Jul 31 16:58:47.868379 2018] [rewrite:trace2] [pid 23608:tid 1160] mod_rewrite.c(482): [client ::1:56815] ::1 - - [localhost/sid#28f555ba428][rid#28f5561d7c0/subreq] init rewrite engine with requested uri /index.html
+[Tue Jul 31 16:58:47.868379 2018] [rewrite:trace1] [pid 23608:tid 1160] mod_rewrite.c(482): [client ::1:56815] ::1 - - [localhost/sid#28f555ba428][rid#28f5561d7c0/subreq] pass through /index.html
+[Tue Jul 31 16:58:47.868379 2018] [rewrite:trace2] [pid 23608:tid 1160] mod_rewrite.c(482): [client ::1:56815] ::1 - - [localhost/sid#28f555ba428][rid#28f5561d7c0/subreq] init rewrite engine with requested uri /index.php
+[Tue Jul 31 16:58:47.868379 2018] [rewrite:trace1] [pid 23608:tid 1160] mod_rewrite.c(482): [client ::1:56815] ::1 - - [localhost/sid#28f555ba428][rid#28f5561d7c0/subreq] pass through /index.php
+[Tue Jul 31 17:00:50.880977 2018] [mpm_winnt:notice] [pid 23608:tid 632] AH00364: Child: All worker threads have exited.
