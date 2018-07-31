@@ -15,8 +15,11 @@ set mysql_versions_dir=mysql32
 set mysql_current_version=mysql32_5_7_17
 
 rem  set mysql_data_dir="%mysql_root%\mysql32\mysql32_5_7_17\data"
-set mysql_data_dir=%mysql_root%\%mysql_versions_dir%\%mysql_current_version%\data
 
+rem //*******************BEEF here
+set mysql_data_dir=%mysql_root%\%mysql_versions_dir%\%mysql_current_version%\data
+rem set mysql_data_dir=J:\data
+rem //***************
 set mysql_bin_dir=%mysql_root%\%mysql_versions_dir%\%mysql_current_version%\bin
 
 set mysql_bin_dir=%mysql_root%\%mysql_versions_dir%\%mysql_current_version%\bin

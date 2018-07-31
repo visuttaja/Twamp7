@@ -15,10 +15,12 @@ popd
 pushd "%~dp0"
 call "%starters_root%\apache\start_apache.bat"
 popd
+echo now open browser
+pause
 
 rem wait 4 secs
-rem ping 127.0.0.1 -n 5 > nul
-rem start "" http://localhost
+timeout /t 4
+
 
 
 

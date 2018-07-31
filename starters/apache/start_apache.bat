@@ -59,7 +59,6 @@ COLOR 4e
 
 set SYSDIRS=c:\windows\system32;c:\windows
 
-
 set PATH=%apache_bin_dir%;%SYSDIRS%;%PHP_DIR%;%PATH%
 pushd "%~dp0"
 cd %apache_bin_dir%

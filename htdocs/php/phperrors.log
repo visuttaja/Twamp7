@@ -99,3 +99,9 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in J:\TWAMP_PHP7\twamp7\htdocs\php\mysql_show_variables.php on line 16
+[31-Jul-2018 12:11:25 Europe/Helsinki] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'php'@'localhost' (using password: YES) in J:\TWAMP_PHP7\twamp7\htdocs\php\mysql_show_variables.php on line 13
+[31-Jul-2018 12:11:25 Europe/Helsinki] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in J:\TWAMP_PHP7\twamp7\htdocs\php\mysql_show_variables.php on line 15
+[31-Jul-2018 12:11:25 Europe/Helsinki] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in J:\TWAMP_PHP7\twamp7\htdocs\php\mysql_show_variables.php:16
+Stack trace:
+#0 {main}
+  thrown in J:\TWAMP_PHP7\twamp7\htdocs\php\mysql_show_variables.php on line 16
