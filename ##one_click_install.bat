@@ -8,7 +8,11 @@ if exist stop.lnk del stop.lnk
  rem call SiteSnapToZip.exe
 call set_roots.bat
 
- echo Installing MYSQL
+echo extracting server
+call "%installers_root%\extract_server\extract_server.bat
+call "%installers_root%\mysql\extract_mysql.bat
+
+echo Installing MYSQL
  call "%installers_root%\mysql\#MYSQL_Asenna.bat"
  echo Installing MYSQL DONE
  echo Installing PHP user
@@ -24,8 +28,6 @@ call set_roots.bat
 
 echo done so much..
 echo %cd%
-
-
 
 call starts.lnk
 popd

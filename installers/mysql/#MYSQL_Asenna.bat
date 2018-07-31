@@ -16,6 +16,8 @@ ECHO siteroot is NOT defined Exiting
 pause
 exit
 )
+echo extracting mysql
+call "%installers_root%\mysql\extract_mysql.bat
 
 call "%siteroot%/set_mysql_environment.bat"
 echo MYSQL DATAFOLDER:

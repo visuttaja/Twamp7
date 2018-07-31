@@ -92,3 +92,10 @@ Stack trace:
 [28-Jul-2018 23:24:46 Europe/Helsinki] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'php'@'localhost' (using password: YES) in J:\TWAMP_PHP5 NIMET SALLII VALIT MUTTA EI UTFFAA\Yrjo Yrittaja\htdocs\php\mysql_show_variables.php on line 11
 [28-Jul-2018 23:24:46 Europe/Helsinki] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in J:\TWAMP_PHP5 NIMET SALLII VALIT MUTTA EI UTFFAA\Yrjo Yrittaja\htdocs\php\mysql_show_variables.php on line 13
 [28-Jul-2018 23:24:46 Europe/Helsinki] PHP Fatal error:  Call to a member function fetch_assoc() on null in J:\TWAMP_PHP5 NIMET SALLII VALIT MUTTA EI UTFFAA\Yrjo Yrittaja\htdocs\php\mysql_show_variables.php on line 14
+[30-Jul-2018 10:43:19 Europe/Helsinki] PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in J:\TWAMP_PHP7\twamp7\htdocs\php\mysql_show_variables.php on line 13
+[30-Jul-2018 10:43:19 Europe/Helsinki] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in J:\TWAMP_PHP7\twamp7\htdocs\php\mysql_show_variables.php on line 15
+[30-Jul-2018 10:43:19 Europe/Helsinki] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in J:\TWAMP_PHP7\twamp7\htdocs\php\mysql_show_variables.php:16
+Stack trace:
+#0 {main}
+  thrown in J:\TWAMP_PHP7\twamp7\htdocs\php\mysql_show_variables.php on line 16
