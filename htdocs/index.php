@@ -1,3 +1,5 @@
+<? header('Content-Type: text/html;charset=UTF-8');
+?>
 <!DOCTYPE html>
 <html>
 <meta charset="utf-8"/>
@@ -28,15 +30,18 @@
 
             // must be a file
             if ($fileinfo->isFile()) {
+
                 // file extension
+
                 $extension = strtolower(pathinfo($fileinfo->getFilename(), PATHINFO_EXTENSION));
 
 
                 // check if extension match
                 if (in_array($extension, $extensions)) {
                     // add to result
-                    //echo $fileinfo->getPath() . "/" . $fileinfo->getFilename();
-                    $first_occurence = $fileinfo->getPath() . "/" . $fileinfo->getFilename();
+                   $path = $fileinfo->getPath();
+                    $name= $fileinfo->getFilename();
+                    $first_occurence =  $fileinfo->getFilename();
                      return $first_occurence;
                 }
             }
@@ -45,11 +50,14 @@
     $exts[] = 'zip';
     $zip_name =get_first_file_name_of_extension('distro',$exts);
     $filename = $zip_name;
-    echo '<a href='.$filename.'>';
+    $filenameEnc=  rawurlencode ( $filename );
+    //$filename=htmlentities($filename);
+    $link_name ='distro/'.$filenameEnc;
+    echo '<a href='.$link_name.'>'.'<br>';
         echo 'Download TWAMP';
     echo '</a><br>';
-    echo $filename;
-	echo "Koko:" . human_filesize( filesize( $filename ) ) . "<br>";
+
+	echo "Koko:" . human_filesize( filesize( 'distro/'.$filename ) ) . "<br>";
 	echo muokattu( $filename );
 
 	?>

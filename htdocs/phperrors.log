@@ -29,3 +29,18 @@
 [31-Jul-2018 15:05:06 Europe/Helsinki] PHP Parse error:  syntax error, unexpected end of file in J:\TWAMP_PHP7\twamp7\htdocs\index.php on line 84
 [31-Jul-2018 15:05:32 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, string given in J:\TWAMP_PHP7\twamp7\htdocs\index.php on line 39
 [31-Jul-2018 15:22:36 Europe/Helsinki] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in J:\TWAMP_PHP7\twamp7\htdocs\index.php on line 56
+[31-Jul-2018 16:03:47 Europe/Helsinki] PHP Warning:  filesize(): stat failed for distro%2FK%C3%B6r%C3%B6+K%C3%B6r%C3%B6.zip in J:\TWAMP_PHP7\twamp7\htdocs\index.php on line 56
+[31-Jul-2018 16:05:09 Europe/Helsinki] PHP Warning:  filesize(): stat failed for distro%2FK%C3%B6r%C3%B6+K%C3%B6r%C3%B6.zip in J:\TWAMP_PHP7\twamp7\htdocs\index.php on line 57
+[31-Jul-2018 16:05:32 Europe/Helsinki] PHP Warning:  filesize(): stat failed for distro/K&amp;ouml;r&amp;ouml; K&amp;ouml;r&amp;ouml;.zip in J:\TWAMP_PHP7\twamp7\htdocs\index.php on line 57
+[31-Jul-2018 16:21:44 Europe/Helsinki] PHP Warning:  filesize(): stat failed for distro/K&amp;ouml;r&amp;ouml; K&amp;ouml;r&amp;ouml;.zip in J:\TWAMP_PHP7\twamp7\htdocs\index.php on line 57
+[31-Jul-2018 16:22:03 Europe/Helsinki] PHP Warning:  filesize(): stat failed for distro%2FK%C3%B6r%C3%B6+K%C3%B6r%C3%B6.zip in J:\TWAMP_PHP7\twamp7\htdocs\index.php on line 57
+[31-Jul-2018 16:23:44 Europe/Helsinki] PHP Warning:  filesize(): stat failed for distro%2FK%C3%B6r%C3%B6+K%C3%B6r%C3%B6.zip in J:\TWAMP_PHP7\twamp7\htdocs\index.php on line 57
+[31-Jul-2018 16:27:33 Europe/Helsinki] PHP Warning:  filesize(): stat failed for distro%2FK%C3%B6r%C3%B6%20K%C3%B6r%C3%B6.zip in J:\TWAMP_PHP7\twamp7\htdocs\index.php on line 57
+[31-Jul-2018 16:27:38 Europe/Helsinki] PHP Warning:  filesize(): stat failed for distro%2FK%C3%B6r%C3%B6%20K%C3%B6r%C3%B6.zip in J:\TWAMP_PHP7\twamp7\htdocs\index.php on line 57
+[31-Jul-2018 16:28:39 Europe/Helsinki] PHP Warning:  filesize(): stat failed for distro%2FK%C3%B6r%C3%B6%20K%C3%B6r%C3%B6.zip in J:\TWAMP_PHP7\twamp7\htdocs\index.php on line 57
+[31-Jul-2018 16:34:22 Europe/Helsinki] PHP Warning:  filesize(): stat failed for distro%2FK%C3%B6r%C3%B6%20K%C3%B6r%C3%B6.zip in J:\TWAMP_PHP7\twamp7\htdocs\index.php on line 64
+[31-Jul-2018 16:35:06 Europe/Helsinki] PHP Warning:  filesize(): stat failed for distro%2FK%C3%B6r%C3%B6%20K%C3%B6r%C3%B6.zip in J:\TWAMP_PHP7\twamp7\htdocs\index.php on line 64
+[31-Jul-2018 16:36:49 Europe/Helsinki] PHP Warning:  filesize(): stat failed for K%C3%B6r%C3%B6%20K%C3%B6r%C3%B6.zip in J:\TWAMP_PHP7\twamp7\htdocs\index.php on line 64
+[31-Jul-2018 16:38:29 Europe/Helsinki] PHP Warning:  filesize(): stat failed for K%C3%B6r%C3%B6%20K%C3%B6r%C3%B6.zip in J:\TWAMP_PHP7\twamp7\htdocs\index.php on line 59
+[31-Jul-2018 16:39:05 Europe/Helsinki] PHP Warning:  filesize(): stat failed for Körö Körö.zip in J:\TWAMP_PHP7\twamp7\htdocs\index.php on line 59
+[31-Jul-2018 16:43:09 Europe/Helsinki] PHP Warning:  filesize(): stat failed for Körö Körö.zip in J:\TWAMP_PHP7\twamp7\htdocs\index.php on line 60
