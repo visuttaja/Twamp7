@@ -13,13 +13,42 @@
     <a href="php/mysql_show_variables.php">
         MySQL Variables
     </a><br><br>
-    <a href="distro/twamp7.zip">
-        Download TWAMP
-    </a><br>
+
 
 	<?
+    function get_first_file_name_of_extension($dir,$extensions)
+    {
 
-	$filename = 'distro/twamp7.zip';
+
+                  // directory to scan
+        $directory = new DirectoryIterator($dir);
+
+        // iterate
+        foreach ($directory as $fileinfo) {
+
+            // must be a file
+            if ($fileinfo->isFile()) {
+                // file extension
+                $extension = strtolower(pathinfo($fileinfo->getFilename(), PATHINFO_EXTENSION));
+
+
+                // check if extension match
+                if (in_array($extension, $extensions)) {
+                    // add to result
+                    //echo $fileinfo->getPath() . "/" . $fileinfo->getFilename();
+                    $first_occurence = $fileinfo->getPath() . "/" . $fileinfo->getFilename();
+                     return $first_occurence;
+                }
+            }
+        }
+    }
+    $exts[] = 'zip';
+    $zip_name =get_first_file_name_of_extension('distro',$exts);
+    $filename = $zip_name;
+    echo '<a href='.$filename.'>';
+        echo 'Download TWAMP';
+    echo '</a><br>';
+    echo $filename;
 	echo "Koko:" . human_filesize( filesize( $filename ) ) . "<br>";
 	echo muokattu( $filename );
 

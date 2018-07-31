@@ -7,7 +7,7 @@ if exist restart.lnk del restart.lnk
 if exist starts.lnk del start.lnk
 if exist stop.lnk del stop.lnk
 
-rem call SiteSnapToZip.exe
+call SiteSnapToZip.exe
 call set_roots.bat
 
 call "%installers_root%\mysql\extract_mysql.bat

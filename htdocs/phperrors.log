@@ -26,3 +26,6 @@
 [26-Jul-2018 05:46:37 Europe/Helsinki] PHP Warning:  filesize(): stat failed for distro/twamp.zip in J:\TWAMPTEST\twamp\htdocs\index.php on line 22
 [27-Jul-2018 02:48:09 Europe/Helsinki] PHP Warning:  filesize(): stat failed for distro/twamp.zip in J:\TWAMPTEST\YrjYrittj\htdocs\index.php on line 22
 [27-Jul-2018 03:05:37 Europe/Helsinki] PHP Warning:  filesize(): stat failed for distro/twamp.zip in J:\TWAMPTEST\YrjYrittj\htdocs\index.php on line 22
+[31-Jul-2018 15:05:06 Europe/Helsinki] PHP Parse error:  syntax error, unexpected end of file in J:\TWAMP_PHP7\twamp7\htdocs\index.php on line 84
+[31-Jul-2018 15:05:32 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, string given in J:\TWAMP_PHP7\twamp7\htdocs\index.php on line 39
+[31-Jul-2018 15:22:36 Europe/Helsinki] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in J:\TWAMP_PHP7\twamp7\htdocs\index.php on line 56
