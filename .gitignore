@@ -15,3 +15,5 @@ workbench.lnk
 starts.lnk
 stop.lnk
 restart.lnk
+starters/mysql/mysqlpid.txt
+installers/mysql/mysqlpid.txt
