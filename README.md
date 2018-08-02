@@ -12,15 +12,18 @@ without changing configuration.
 2. APACHE httpd-2.4.34-win64-VC15.zip loaded from http://www.apachelounge.com/download/
 3. XDEBUG php_xdebug-2.7.0alpha1-7.2-vc15-x86_64.dll loaded from https://xdebug.org/download.php
 What is the point 1 ?
+
 All configuration files are in one directory.
 httpd.conf,php.ini,my.ini,document root,ip-port,mysql port, and setting of root user of mysql.
 Also you get setting of php user for mysql as example of how to create users from batch file..
 Worpress installation is example of frameworks. 
 What is the point 2 ?
+
 You can test new versions of php/apace simply placing zips from mentioned locations into server directory.
 Just rename extension to zip_ of those you don't include.
 
 What is the point 3 ?
+
 UTF 8 path names. This comes with PHP 7 but more work had to be done than that.
 Paths can have spaces as well UTF characters like scandinavian letters öäå.
 You can rename site root without problem.
